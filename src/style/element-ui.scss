@@ -1,0 +1,241 @@
+.home {
+    .el-carousel__indicators--horizontal {
+        bottom: 50px;
+    }
+}
+
+// 表格悬浮提示宽度
+.el-tooltip__popper {
+    max-width: 400px !important;
+}
+// 表格悬浮提示宽度
+
+// 全局table样式
+.tablebox {
+    // width: calc(100% - 20px);
+    .icon {
+        color: #3bb5a0;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .tables {
+
+        .el-table__header tr,
+        .el-table__header th {
+            padding: 0;
+            height: 40px;
+            background: #3bb5a0;
+            color: #fff;
+        }
+
+        .el-dialog__headerbtn {
+            top: 12px;
+            right: 12px;
+
+            .el-icon-close:before {
+                color: #fff;
+            }
+        }
+
+        .el-table__body tr,
+        .el-table__body td {
+            padding: 0;
+            height: 40px;
+        }
+        .el-checkbox__input.is-checked .el-checkbox__inner,
+        .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+            background: #3bb5a0;
+            border-color: #3bb5a0;
+        }
+        .cell {
+            .el-button--primary {
+                background: #3ab5a0;
+                border: 0;
+            }
+        }
+    }
+}
+.tab {
+    background-color: #3bb5a0;
+    color: white;
+  }
+// 全局table样式
+
+
+
+// .el-dialog {
+//     .el-dialog__header {
+//         padding: 0;
+//         //   background: #3ab5a0;
+//         color: #fff;
+
+//         .el-dialog__headerbtn {
+//             top: 8px;
+//             right: 12px;
+
+//             .el-icon-close:before {
+//                 color: #fff;
+//             }
+//         }
+
+//         .el-dialog__title {
+//             margin-left: 15px;
+//             font-size: 13px;
+//             line-height: 30px;
+//             color: #fff;
+//             font-weight: 600;
+//         }
+//     }
+
+//     .el-dialog__body {
+//         padding: 10px 20px 20px;
+//     }
+// }
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+
+    .el-button--primary {
+        background: #3ab5a0;
+        border: 0;
+    }
+
+    .el-button--primary.is-plain {
+        color: #fff;
+    }
+
+    .el-button,
+    .el-button:hover {
+        border: 1px solid #3ab5a0;
+
+        // color: #3ab5a0;
+    }
+}
+
+//
+
+// 行样式+边框
+.onesbox {
+    border: 2px solid #f2f2f2;
+    // padding:0 10px ;
+    margin-bottom: 5px;
+
+    .formbox {
+        padding: 5px 20px;
+    }
+
+    .navone {
+        height: 30px;
+        background: #f2f2f2;
+        margin-bottom: 2px;
+
+        .titleboxs {
+            height: 30px;
+            color: #999;
+            font-size: 15px;
+            line-height: 30px;
+            text-align: left;
+            margin-left: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .navonecur {
+        height: 30px;
+        background: #f2f2f2;
+        margin-bottom: 2px;
+
+        // border-bottom: 1px solid #3ab5a0;
+        .titleboxs {
+            margin-left: 20px;
+
+            height: 30px;
+            color: #3ab5a0;
+            font-size: 15px;
+            line-height: 30px;
+            font-weight: 600;
+            text-align: left;
+        }
+    }
+}
+
+//   ×号样式
+.el-dialog {
+    .el-dialog__header {
+        padding: 0;
+        //   background: #3ab5a0;
+        color: #fff;
+
+        .el-dialog__headerbtn {
+            top: 8px;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    /*滚动条整体样式*/
+
+    width: 5px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+
+    height: 1px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+
+    background: #ccc;
+
+}
+
+::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+
+    border-radius: 10px;
+
+    // background: #EDEDED;
+
+}
+//多选框 样式
+.condition_query{
+	.condition_box{
+		.el-checkbox{
+			.is-focus{
+				.el-checkbox__inner{
+					border-color:#3cb5a0;
+				}
+			}
+			.el-checkbox__input{
+				.el-checkbox__inner:hover{
+					border-color:#3cb5a0;
+				}
+			}
+		}
+		.is-checked{
+			.el-checkbox__inner{
+				background:none;
+				border-color:#3cb5a0;
+			}
+			.el-checkbox__inner::after{
+				border-color:#3cb5a0;
+			}
+			.el-checkbox__label{
+				color:#3cb5a0;
+			}
+		}
+	}
+	.el-pager li.active{
+		
+	}
+}

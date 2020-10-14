@@ -1,0 +1,114 @@
+{
+  "id": "1997869",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2088296",
+      "name": "新建工单",
+      "font_class": "xinjiangongdan",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "4186412",
+      "name": "归档",
+      "font_class": "tubiao",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "7247295",
+      "name": "待办",
+      "font_class": "daiban",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "9786619",
+      "name": "撤销",
+      "font_class": "chexiao",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10484385",
+      "name": "未完成",
+      "font_class": "weiwancheng",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "15703301",
+      "name": "单据经办",
+      "font_class": "huoxingicon-103",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "5037348",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e847",
+      "unicode_decimal": 59463
+    },
+    {
+      "icon_id": "10469935",
+      "name": "左",
+      "font_class": "you",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5522183",
+      "name": "通讯录",
+      "font_class": "tongxunlu",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "9181275",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "13910944",
+      "name": "资料管理",
+      "font_class": "ziliaoguanli",
+      "unicode": "e878",
+      "unicode_decimal": 59512
+    },
+    {
+      "icon_id": "1963156",
+      "name": "职位职责",
+      "font_class": "zhiweizhize",
+      "unicode": "e905",
+      "unicode_decimal": 59653
+    },
+    {
+      "icon_id": "6278138",
+      "name": "班次",
+      "font_class": "banci",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "8258530",
+      "name": "模板",
+      "font_class": "moban",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "13248231",
+      "name": "班组",
+      "font_class": "banzu",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    }
+  ]
+}
